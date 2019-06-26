@@ -24,7 +24,13 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
-    }
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nerfedgabs.weatherapp"
+    },
+    "android": {
+      "package": "com.nerfedgabs.weatherapp"
+    },
+    "description": "",
+    "githubUrl": "https://github.com/gabrielamanzolini/weather-app"
   }
 }

@@ -32,9 +32,9 @@ export default class SearchInput extends React.Component {
                 autoCorrect={false}
                 value={text} 
                 placeholder={placeholder}
-                placeholderTextColor="white" 
+                placeholderTextColor="#fff" 
                 underlineColorAndroid="transparent" 
-                style={styles.TextInput} 
+                style={styles.textInput} 
                 clearButtonMode="always"
                 onChangeText={this.handleChangeText}
                 onSubmitEditing={this.handleSubmitEditing}
@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
     },
     textInput: {
         flex: 1,
-        color: 'white',
+        color: '#fff',
     },
         
 })
